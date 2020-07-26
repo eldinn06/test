@@ -10,6 +10,8 @@ body{
 	background-attachment: fixed;
 	background-repeat: repeat;
 	background-position: center center;
+	margin: 0;
+	padding: 0;
 }
 .Header h3 a{
  float: left;
@@ -21,6 +23,7 @@ body{
  text-decoration: none;
  color: white;
  top: 30px;
+ display: inline;
 }
 nav{
 	background-color: black;
@@ -32,7 +35,11 @@ section{
 	width: 1150px;
 	position: relative;
 	top: 330px;
-	left: 40px;
+	left: 0px;
+	margin: auto;
+	width: 90%;
+	overflow: hidden;
+	height: auto;
 }
 footer{
 	height: 120px;
@@ -52,6 +59,7 @@ footer{
 	width: 550px;
 	height: 70px;
 	font-size: 24px;
+	text-align: center;
 }
 .button:hover{
 	background-color: 46BE07;
@@ -61,7 +69,14 @@ footer{
 	position: relative;
 	top: 20px;
 	text-align: center;
+	width: 100%;
+    margin: auto;
 }
 .h1{
 	text-align: center;
+}
+@media(max-width: 768px){
+	.button{
+		display: none;
+	}
 }
