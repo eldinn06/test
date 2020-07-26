@@ -1,0 +1,81 @@
+
+.Header h3 a{
+ float: left;
+ font-size: 20px; 
+ width: 120px; 
+ position: relative;
+ left: 40px;
+ cursor: pointer;
+ text-decoration: none;
+ color: white;
+ top: 30px;
+}
+body{
+	background-image:url(hacker.png);
+	background-size: auto;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center center;
+}
+nav{
+	background-color: black;
+	height: 80px;
+	position: relative;
+	top: -8px;
+	width: 1223px;
+}
+.header{
+	position: relative;
+	left: 13px;
+}
+section{
+	background-color: white;
+	height: 2800px;
+	width: 1150px;
+	position: relative;
+	top: 200px;
+	left: 40px;
+}
+.steam{
+	position: relative;
+	text-align: center;
+	top: 10px;
+}
+.text1{
+	position: relative;
+	top: 25px;
+	font-size: 20px;
+	text-align: center;
+}
+footer{
+	height: 120px;
+	background-color: black;
+	position: relative;
+	top: 370px;
+	width: 1230px;
+	right: 15px;
+}
+.text2{
+	position: relative;
+	top: 25px;
+	font-size: 20px;
+	text-align: center;
+}
+.text3{
+	position: relative;
+	top: 25px;
+	font-size: 20px;
+	text-align: center;
+}
+.text4{
+	position: relative;
+	top: 25px;
+	font-size: 20px;
+	text-align: center;
+}
+.text5{
+	position: relative;
+	top: 25px;
+	font-size: 20px;
+	text-align: center;
+}
